@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/asvitkin/IdeaProjects/The Internet">
+        <classes>
+            <class name="alerts.AlertsTests">
+                <methods>
+                    <include name="testAlert"/>
+                    <include name="testConfirm"/>
+                    <include name="testPrompt"/>
+                </methods>
+            </class>
+            <class name="dropdown.DropdownTests">
+                <methods>
+                    <include name="testSelectOption"/>
+                </methods>
+            </class>
+            <class name="fileupload.FileUploadTests">
+                <methods>
+                    <include name="testFileUpload"/>
+                </methods>
+            </class>
+            <class name="frames.FrameTests">
+                <methods>
+                    <include name="testEditor"/>
+                </methods>
+            </class>
+            <class name="hover.HoverTests">
+                <methods>
+                    <include name="testHoverUser1"/>
+                </methods>
+            </class>
+            <class name="javascript.JavaScriptTests">
+                <methods>
+                    <include name="testJS"/>
+                    <include name="testScrollToParagraph"/>
+                </methods>
+            </class>
+            <class name="keys.KeysTests">
+                <methods>
+                    <include name="testBackspace"/>
+                    <include name="testShortcuts"/>
+                </methods>
+            </class>
+            <class name="login.LoginTests">
+                <methods>
+                    <include name="testSuccessfullLogin"/>
+                </methods>
+            </class>
+            <class name="modals.ModalTests">
+                <methods>
+                    <include name="testModal"/>
+                </methods>
+            </class>
+            <class name="navigation.NavigationTests">
+                <methods>
+                    <include name="testNavigation"/>
+                    <include name="testSwitchToTab"/>
+                </methods>
+            </class>
+            <class name="wait.WaitTests">
+                <methods>
+                    <include name="testWaits"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
